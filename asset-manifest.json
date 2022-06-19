@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/learningcurve/static/css/main.b4f1e076.css",
+    "main.js": "/learningcurve/static/js/main.0eb0e85e.js",
+    "static/js/787.3f8ca15d.chunk.js": "/learningcurve/static/js/787.3f8ca15d.chunk.js",
+    "static/media/dc.jpg": "/learningcurve/static/media/dc.d6c6776be237ae215edc.jpg",
+    "static/media/logo.svg": "/learningcurve/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/learningcurve/index.html",
+    "main.b4f1e076.css.map": "/learningcurve/static/css/main.b4f1e076.css.map",
+    "main.0eb0e85e.js.map": "/learningcurve/static/js/main.0eb0e85e.js.map",
+    "787.3f8ca15d.chunk.js.map": "/learningcurve/static/js/787.3f8ca15d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b4f1e076.css",
+    "static/js/main.0eb0e85e.js"
+  ]
+}
