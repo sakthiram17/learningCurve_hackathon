@@ -1,0 +1,27 @@
+.sign{
+    display:flex;
+    justify-content:center;
+}
+input{
+    display:block;
+    padding:5px;
+    font:inherit;
+    margin:10px;
+}
+label{
+    display:block;
+    padding:10px;
+    font:inherit;
+    font-weight:bold;
+}
+select{
+    font:inherit;
+    margin:auto;
+    padding:10px;
+    border-radius: 10px;
+    border:none;
+    margin-top: 10px;
+    background-color:rgb(227, 227, 227);
+    display:block;
+
+}

@@ -1,0 +1,22 @@
+
+input{
+    display:block;
+    padding:5px;
+    font:inherit;
+    margin:10px;
+    width: 90%;
+}
+label{
+    display:block;
+    padding:10px;
+    font:inherit;
+    font-weight:bold;
+}
+select{
+    font:inherit;
+    padding:10px;
+    border-radius: 10px;
+    border:none;
+    margin:10px;
+    margin:auto;
+}

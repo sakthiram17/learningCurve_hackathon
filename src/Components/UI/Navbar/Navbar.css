@@ -1,0 +1,104 @@
+
+
+.NavBar{
+    font-size:22px;
+    box-shadow: 3px 5px 5px 3px var(--nav-shadow);
+    background-color:var(--primary-nav);
+    width: 100%;
+    color:var(--navtext);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    position:relative;
+    margin-bottom: 5%;
+}
+.DarkModeIcon{
+    font-size:20px;
+
+}
+.navbar-header{
+    text-decoration: none;
+    padding: 0.25em 1em;
+    color:var(--navtext);
+    vertical-align: middle;
+    position: absolute;
+    left:0;
+    font-size:1.5rem;
+    font-weight:bold;
+}
+.small_nav-header{
+    font-size:1.5rem;
+    font-weight:bold;
+    vertical-align: middle;
+    margin: auto;
+}
+
+.NavBar ul{
+    text-decoration: none;
+    display: inline;
+    margin:0;
+    padding:0;
+    display: flex;
+    justify-content:flex-end;
+    align-items:center;
+    text-align:center;
+}
+.NavBarElement{
+    text-decoration: none;
+    padding: 0.2em 1.5em 0.2em 1.5em;
+    display: inline-block;
+   color:var(--navtext);
+    transition: 0.15s;
+
+    vertical-align: middle;
+    margin-left: 20px;
+    
+}
+
+.NavBarElement:hover,.NavBarElement:active{
+    color:var(--secondary-nav);
+    transform: translateY(-5px);
+   border-radius: 3px;
+
+
+}
+.NavBar button{
+    border: none;
+    color:var(--navtext);
+    background-color: inherit;
+    font-size: 25px;
+}
+.active{
+    color:var(--secondary-nav);
+    border-radius: 3px;
+}
+.header-f{
+    color:var(--navtext);
+}
+.header-l{
+    color:var(--secondary-nav);
+}
+.btn-grp{
+     position: absolute;
+     left:5%;
+}
+.menu-button{
+    color:var(--secondary-nav);
+}
+.openMenu{
+    width: 35px;
+    height: 5px;
+    background-color: var(--secondary-nav);
+    margin: 6px 0;
+    transition: .15s;
+  }
+  .menu-bar-icon {
+      color:var(--secondary-nav)
+  }
+  .menu-bar-icon :hover ,.menu-bar-icon:active{
+      opacity : 0.8;
+      background-color:whitesmoke;
+      
+  }
+  

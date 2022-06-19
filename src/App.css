@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+
 }
 
 .App-logo {
@@ -35,4 +36,50 @@
   to {
     transform: rotate(360deg);
   }
+}
+:root{
+  --primary-nav :whitesmoke;
+  --secondary-text: #f5cac2;
+  --secondary-nav : rgb(230, 0, 92);
+  --primary-color : #080cff;
+  --primary-color-50 : rgb(48, 49, 121,0.5);
+  --secondary-color : rgb(22, 36, 232);
+  --main-bg : #272727;
+  --secondary-nav-50 : rgba(16, 205, 176, 0.5);;
+  --secondary-color-50 : rgb(20, 24, 80,0.5);
+  --navtext:black;
+  --navtext-alt :rgb(211, 0, 88);
+  --card-bg :rgb(175, 175, 199);
+  --primary-text : black;
+  --card-box : rgb(207, 204, 204);
+  --text-alt: #d600cf;
+  --card-hover: #ff1600;
+}
+.gen-btn{
+  padding : 0.5rem 1rem;
+  font:inherit;
+  border:none;
+  border-radius: 10px;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom : 20px;
+  font-size:1.2rem;
+  color:whitesmoke;
+  background-color:rgb(255, 0, 85);
+  transition:0.15s;
+}
+.gen-btn:hover{
+  background-color:var(--secondary-nav);
+  
+}
+.gen-btn:active{
+  box-shadow: 0 0 3px 3px var(--secondary-nav);
+  transform:scale(1.1);
+}
+html{
+ background-color : rgb(230, 229, 229);
+}
+*{
+  box-sizing: border-box;
 }

@@ -1,0 +1,27 @@
+.student-course{
+    display:flex;
+    align-items: center;
+    flex-direction:column;
+    font-size : 1.4rem;
+    text-align:center;
+    font-weight:bold;
+    padding:0.5rem;
+    margin:auto;
+}
+.course-code{
+padding : 2rem;
+}
+.course-title{
+    padding : 1rem;
+}
+.course-desc{
+    padding : 1rem;
+    font-size: 1rem;
+}
+.slide{
+    padding:20px;
+}
+.slide-body{
+    padding:20px;
+    font-weight: bold;
+}

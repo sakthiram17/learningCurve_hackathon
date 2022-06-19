@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box
+}
+.SideBar{
+    font-size:20px;
+    height: 100vh;
+    background-color:var(--primary-nav);
+    color:var(--navtext);
+    width: fit-content;
+    z-index: 1000;
+    position:absolute;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    left: 0;
+    top:0;
+    margin:0;
+    opacity: 1;
+    transition:transform,0.15s;
+    z-index : 2;
+
+}
+
+.close{
+    transform:translateX(-60vw);
+}
+.open{
+    transform:translateX(0);
+}
+.SideBar ul{
+    text-decoration: none;
+    
+    margin: 0;
+    width:50vw;
+    display: flex;
+    justify-content:center;
+    align-items:middle;
+    list-style: none;
+    flex-direction: column;
+    padding:0;
+    text-align:center;
+}
+.SideBar a{
+    text-decoration: none;
+    padding:3rem 0.5rem;
+    font-size:1.4rem;
+}
+.SideBarElement{
+    text-decoration: none;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    color:var(--navtext);
+    transition: 0.15s;
+    text-align:center;
+    justify-content:center
+
+  
+}
+
+.SideBarElement:hover,.SideBar:focus{
+    color:var(--navtext-alt);
+
+
+}
+.Active1{
+    color:var(--navtext-alt);
+}
+.nav-button{
+    color:black;
+    padding:0.3rem 0.5rem;
+    background:none;
+    border:none;
+    font: inherit;
+    font-size : 1.4rem;
+    text-decoration: none;
+    width: 100%;
+    color:var(--navtext);
+    transition: 0.15s;
+    
+    
+
+}
+.nav-button:hover{
+    color:var(--secondary-nav);
+    transform: translateY(-10px);
+}
+.SideBar button{
+    margin-top: 10%;
+}

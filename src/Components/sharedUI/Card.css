@@ -1,0 +1,23 @@
+.card {
+  position: relative;
+  margin: 50px;
+  margin-top:200px;
+  width:min(80%,600px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border-radius: 6px;
+  padding: 2rem;
+  overflow: hidden;
+  background: ghostwhite;
+  transition: 0.15s;
+  display:flex;
+  justify-content: center;
+  margin:auto;
+  margin-top: 5%;
+ margin-bottom: 5% ;
+
+}
+.card:focus{
+
+  transform:scale(1.1);
+  box-shadow:  2px 2px 15px  #ffa600;
+}
